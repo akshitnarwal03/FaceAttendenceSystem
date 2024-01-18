@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Recognition Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+            min-height: 100vh;
+        }
+
+        h1 {
+            /* background-color: #3498db; */
+            color: #000000;
+            padding: 10px 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            /* margin-top: -1px; */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            /* width: 100%; */
+            max-width: 1000px;
+            /* background-color: aliceblue; */
+            background: rgba(255, 255, 255, 0.2); /* Set the background color with transparency */
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+        }
+
+        .left-side {
+            width: 50%;
+            text-align: center;
+            padding: 20px 20px;
+        }
+
+        .right-side {
+            width: 50%;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body style="background-image: url('../static/image.jpg'); background-size: cover;">
+    <h1>FACE RECOGNITION RESULTS</h1>
+    <div class="container">
+        <div class="left-side">
+            <img src="{{ image_path }}" alt="Uploaded Image">
+            <h3>Recognised: {{recognised}}</h3>
+            <h3>Not-Recognised: {{not_recognised}} </h3>
+        </div>
+        
+        <div class="right-side">
+            <h2>Detected Roll Numbers</h2>
+            <ul>
+                {% for name in detected_names %}
+                    <li>{{ name }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

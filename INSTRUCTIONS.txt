@@ -1,0 +1,11 @@
+INSTRUCTIONS
+
+1. Create folders of each batch containing passport type pictures of each registered student inside classes folder.
+
+2. Using encodeimages.py, create encoding file for each batch and save them in the encodings folder. Remember to keep name of both the folders same i.e folder containing images of students of that batch and their encodings file.
+
+3. You can view detailed output of the detections stored in save_group folder.
+
+4. Remember to change the google sheets credentials in the server.py code in order to get all the attendence data logged in the google sheets in relatime.
+
+5. The people with red bounding box/dots are identified as unrigestered people.

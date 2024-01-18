@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "astute-dreamer-359413",
+  "private_key_id": "2680db7e5c844dea63ce7d55b1c5cea9ab71113d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtiea06hlE7/hR\nvDfxmM1vMJ3UFtuVBO+zozycYGWY8lkfZt0hm1Zs/7OHXk77BWtBnh8IoXKLTlwK\npEXm1OUBzgumMicKPW1pUsiLlfMODINcaIoEWyVpvxgQL1V6tQtXsrKftI6eH6pw\nwQaBPSYYJT5KygSy9F19xBwLsv+jCkkX+onriaBZuBFO5WUttf4ryq5dcFWTrSCK\nl5SieEOU902+tiR82KkyaZBYt8r1e+mKJSjXSb9kce+FUsnSWc1RzsCVGLsDUksP\ncFAJNKIl1TclNb+ZF3CxXO/yLhzTRKj86WoAy+OTZwRnDuE+RrF/hkbtjKqwctgc\nVu24uETnAgMBAAECggEABR+8nFwvKYmRyzrjtESRPyRLjv70WrIii71iN7HQGZPu\n304iA8yDvERQ1ROdShqTgBbaM0yJohKmTvAhftGLtcZuxJ9FeWX/7GJquMPRU54U\n0yUtn8oEUNrv0HQ9Vj6w9dTd2cHFH2bUGUt65wva0AYg7BZBqIx3AV3byUc30hu+\nqeaWg9QUE65hgyyZE7S9OoPyU203c3EfGUlSZgonp+D7nchs7IGoD/+kRXIbG/hT\naCqGsDRypjSeWdcyTAww7RxZbGNevXzqwoOydLorVQrcVdUSLMgr7iPKVCzd3ZdH\npeecjmGmlXh44a20/aN/vycYs1Nebt7ZDVvRcF84HQKBgQDhXRNdmEJ22Y0668uW\n9QfpBNC9ikLExsLAaD2ArhPrrtdcyWFWOm7YKTikvPjDoU2EAXfQJePbZzXk6uQ3\nxzdbOzh1y0SdvjI4gjbzrwwqWGbHMWAJxKoBUOPFdhsIGYRjRtPKMvfx6owb6SpW\n3zEcf2neB5S6CIpcFqLJKZfB7QKBgQDFIUGqHtRhaHuRgsorKmNdE9iTf4sJ56X+\nGz8twGcHkCl5/+GH1x78OBdJHEIxE6OuzrLFWiGskNI+zIl71TnYrkYgW0Hkg/HN\neXYM2l0TX0LOPmU2IMXAadsgAAgdLd4ogaINCu4iLUZcUJua0LetY4XgrFq4e+Rz\nQ3SN/emXowKBgEYF0H2VUJlzEUHMgA6ghduuJlmuOv6/L0XvXaS88e2Z/sqSu866\nCzTY4gO1v6mxVc99UUf4ber/D6zYGx8FpDqRlQJsrR5COYJ7Wy2uJx6FJzIfMlL2\nq0gLZSo2f0GuBAeAu0+pNIcTNIN7mC8z3COZp0BYpKqE+tCQK/ZLGR8lAoGBAKzY\nDxJR+9f427fnXMpiXUNEXnZds5SYt1PJoijEddIM1kExWhdYSMPPjqM9EtCjLrbc\nZ6Vg9Puw85e6kaWxfQn/LF+8hFcQVdja8eYtJMUSlqntzaKbM6kVZ9t0C6lCCXOs\nzmDvP4NZ/UJ+LyGcdiCijcVEejsd7l4ePDkv9DxPAoGAM6JzMqQ26vqPhHcPoVlx\nNe1vMfft3Yw0MBNk7EM9hRvgLJlVQWit2l0pwdN9fzbHpmkl+nuVOue3SOzi21tx\nHfcWaxp+5hTTswZaYg2sgBIQlPH3PTjrjFfxntq2LTgER57WlUDRVcSAtQi/7m3m\nHRLinkZxbONLkw+xlGBG0AY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "attendence-system@astute-dreamer-359413.iam.gserviceaccount.com",
+  "client_id": "115186683808340736005",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/attendence-system%40astute-dreamer-359413.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
