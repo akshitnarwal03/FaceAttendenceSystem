@@ -27,7 +27,7 @@ apps_script_url = 'https://script.google.com/a/gmail.com/macros/s/AKfycbwhEF3_u5
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
 
-creds = ServiceAccountCredentials.from_json_keyfile_name('astute-dreamer-359413-2680db7e5c84.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name('your_google_api_key', scope)
 client = gspread.authorize(creds)
 
 # Get the instance of the Spreadsheet
